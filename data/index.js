@@ -1,24 +1,30 @@
 export const projects = [
   {
     name: "Quix",
+    tagline: "A Quiz Management System Dashboard",
     desc: "Quiz is a simple software to manage quiz. It handles registration of students and Quiz masters. Also, quiz comes with an API (in development) for interested partiest to suggest questions. Quiz is powered by Logic Kids.",
     tools: "Firebase, Tailwind, React",
+    tags: "FullStack",
+    views: "Desktop Only",
     cover: "/projects/labs-admin.png",
     link: "https://constant.logickidsgh.com",
-    components:[
-      "User Registration", 
-      "Authentication", 
-      "Manipulate Questions", 
-      "Set and Manage Quizes", 
+    components: [
+      "User Registration",
+      "Authentication",
+      "Manipulate Questions",
+      "Set and Manage Quizes",
       "Create Coding Lessons",
-      "Broadcast Messages", 
-      "Live Comments with profanity filter"
-    ]
+      "Broadcast Messages",
+      "Live Comments with profanity filter",
+    ],
   },
   {
     name: "Admin x",
+    tagline: "Administrator Component of Logic Schoolx System",
     desc: "The Administrator component of the Logic Schoolx System empowers school administrators to efficiently oversee and manage all aspects of school operations. From student enrollment to staff management, the Administrator module provides comprehensive tools for maintaining the school's organizational structure. It facilitates the smooth execution of administrative tasks, ensuring seamless communication between teachers, students, and parents. Through this central hub, administrators can streamline data management, track academic progress, and monitor the overall performance of the institution.",
     tools: "React, Firebase, Golang, MongoDB, TypeScript",
+    tags: "FullStack",
+    views: "Desktop Only",
     components: [
       "Student Management",
       "Staff Management",
@@ -34,9 +40,12 @@ export const projects = [
   },
   {
     name: "Staff x",
+    tagline:"Teacher's Component of Logic Schoolx System", 
     cover: "/projects/staff.png",
     desc: "The Teacher component of the Logic Schoolx System is designed to support educators in optimizing the teaching and learning experience. It offers a user-friendly interface for teachers to manage curriculum planning, lesson scheduling, and student assessment. With integrated tools for grading, attendance tracking, and individualized student progress reports, the Teacher module enables educators to focus on delivering high-quality education. Additionally, it facilitates effective communication with students and parents, fostering a collaborative learning environment that nurtures academic excellence",
     tools: "React, Golang, Firebase, MongoDB, TypeScript",
+    tags: "FullStack",
+    views: "Desktop and Mobile",
     components: [
       "Attendance Management",
       "Examination Processing",
@@ -49,8 +58,11 @@ export const projects = [
   },
   {
     name: "Student x",
+    tagline:"Student/Parent Component of Logic Schoolx",
     desc: "The Student/Parent Portal component of the Logic Schoolx System serves as a secure and interactive platform for students and parents to access essential academic information and communicate with school faculty. It provides real-time access to student performance records, class schedules, and academic resources, fostering a collaborative learning environment that encourages parental involvement in their child's education. With personalized dashboards and messaging capabilities, the portal enhances transparency and facilitates effective communication between the school, students, and parents, fostering a supportive and engaging educational ecosystem",
     tools: "React, Golang, Firebase, MongoDB, TypeScript",
+    tags: "FullStack",
+    views: "Desktop🖥 and Mobile📱",
     components: [
       "Profile Information",
       "Examination Records",
@@ -66,9 +78,12 @@ export const projects = [
   },
   {
     name: "Account x",
+    tagline:"Financial Component of Logic Schoolx",
     desc: "The Accounts component of the Logic Schoolx System provides a robust financial management system tailored to the specific needs of educational institutions. It streamlines financial operations, including fee management, budget tracking, and expense monitoring, ensuring transparency and accuracy in financial reporting. The module offers customizable features for generating detailed financial statements and automating payment processes, thus enabling school administrators to effectively manage financial resources and ensure the school's financial stability",
     tools: "React, Golang, Firebase, MongoDB, TypeScript",
     cover: "/projects/accounts.png",
+    tags: "FullStack",
+    views: "Desktop🖥 Only",
     components: [
       "Add Mutliple Fees",
       "Fees Statistics",
@@ -82,40 +97,54 @@ export const projects = [
   },
   {
     name: "WRIS Website",
+    tagline:"Website of Western Region Int. School",
     desc: "Discover an innovative educational journey at Western Region International School, where every student's potential is nurtured in a dynamic learning environment. Our school fosters a culture of academic excellence and personal growth, guided by experienced educators dedicated to cultivating a passion for learning. Explore our diverse curriculum, state-of-the-art facilities, and vibrant community, where students are inspired to thrive and succeed. Join us in shaping the leaders and innovators of tomorrow",
     tools: "Nextjs",
     cover: "/projects/wris.png",
     link: "https://wrisgh.com",
+    tags: "Frontend",
+    views: "Desktop🖥 and Mobile📱",
   },
   {
     name: "GHS Website",
+    tagline:"Website of Greater Heights School Ltd.",
     desc: "Discover an innovative educational journey at Greater Heights School Ltd, where every student's potential is nurtured in a dynamic learning environment. Our school fosters a culture of academic excellence and personal growth, guided by experienced educators dedicated to cultivating a passion for learning. Explore our diverse curriculum, state-of-the-art facilities, and vibrant community, where students are inspired to thrive and succeed. Join us in shaping the leaders and innovators of tomorrow",
     tools: "Nextjs",
     cover: "/projects/ghs.png",
     link: "https://greaterheightssch.org",
+    tags: "Frontend",
+    views: "Desktop🖥 and Mobile📱",
   },
   {
     name: "Logic Labs",
+    tagline:"Coding Quiz Competitions for kids", 
     desc: "Logic Labs provides an exciting platform for young minds to embark on a journey of coding excellence. Our engaging and challenging coding competitions are designed to nurture critical thinking and problem-solving skills in a fun and collaborative environment. Through hands-on challenges and expert mentorship, we inspire young talents to explore the world of programming and computational thinking, fostering a passion for innovation and creativity. Join us at Logic Labs and unleash your child's coding potential",
     tools: "Nextjs",
     cover: "/projects/labs.png",
     link: "https://labs.logickidsgh.com",
+    tags: "Frontend",
+    views: "Desktop🖥 and Mobile📱",
   },
   {
     name: "The Siren",
+    tagline:"An Automated Bell System", 
     desc: "Elevate school operations with our advanced Automated Bell System, seamlessly replacing the traditional manual bell ring. Designed for educational institutions, our cutting-edge solution streamlines time management with precision and reliability. Say goodbye to manual scheduling and hello to hassle-free timekeeping, ensuring a punctual and organized school environment. Enjoy a seamless transition between classes and activities with our intuitive automated bell system, tailored to enhance efficiency and promote a smooth academic experience.",
     tools: "Golang",
     cover: "/projects/siren.png",
+    tags: "Backend",
+    views: "Desktop🖥 and Mobile📱",
     link: "https://github.com/bill-greatness/siren",
   },
   {
     name: "Logic Kids",
+    tagline:"Training Kids to Code", 
     desc: "An educational startup to bring coding to kids in Africa. Exploring the possibilities of helping every child code, one line at at time.",
     tools: "Firebase, Nextjs",
     cover: "/projects/logic.png",
+    tags: "FullStack",
+    views: "Desktop🖥 and Mobile📱",
     link: "https://www.logickidsgh.com",
   },
-
 ];
 
 export const skills = [
@@ -130,6 +159,10 @@ export const skills = [
   {
     name: "Nodejs",
     img: "https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-64.png",
+  },
+  {
+    name: "TypeScript",
+    img: "https://cdn1.iconfinder.com/data/icons/brands-5/512/fi-brands-typescript-64.png",
   },
   {
     name: "Golang",

@@ -5,6 +5,7 @@
 
 html * {
     font-family: sen;
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
     width: 0;

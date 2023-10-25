@@ -24,7 +24,7 @@ export const Details = ({ data, close }) => {
         <div className="sticky top-0 w-full">
           <button
             onClick={close}
-            className="absolute right-5 top-3 bg-red-500 p-1"
+            className="absolute z-50 rounded-full right-5 top-3 bg-red-500 p-2"
           >
             <HiMiniArrowUturnDown className="text-white text-xl" />
           </button>

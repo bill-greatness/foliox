@@ -4,7 +4,7 @@ export const Skill = ({ project, setProject }) => {
   return (
     <div
       data-aos="zoom-in-up"
-      className="w-full md:w-[32%] border-2 border-gray-50 shadow-md flex flex-col relative overflow-hidden rounded-lg h-[40vh] bg-red-500 hover:border-y-2 border-white transition hover:delay-150 hover:scale-75"
+      className="w-full md:w-[32%] border border-gray-400 shadow-md flex flex-col relative overflow-hidden rounded-lg h-[40vh] bg-red-500 hover:border-y-2 border-white transition hover:delay-150 hover:scale-75"
     >
       <div style={{backgroundImage:`linear-gradient(70deg, rgba(80, 80, 140, 0.9), rgba(50, 40, 40, 0.7)), url(${project.cover})`}} className={`flex flex-1 justify-center items-center bg-contain bg-center `}>
         <div className="text-left p-2">

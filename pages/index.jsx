@@ -39,10 +39,30 @@ export default function Home() {
           </a>
 
           <div className="gap-10 font-bold flex justify-around">
-            <a href="#skills" className="hover:border-b-2 hover:pb-5 rounded-lg border-b-red-500">Skills</a>
-            <a href="#projects" className="hover:border-b-2  hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500">Projects</a>
-            <a href="#contact" className="hover:border-b-2 hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500">Contact Me</a>
-            <a href="#" className="hover:border-b-2 hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500">Resume</a>
+            <a
+              href="#skills"
+              className="hover:border-b-2 hover:pb-5 rounded-lg border-b-red-500"
+            >
+              Skills
+            </a>
+            <a
+              href="#projects"
+              className="hover:border-b-2  hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500"
+            >
+              Projects
+            </a>
+            <a
+              href="#contact"
+              className="hover:border-b-2 hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500"
+            >
+              Contact Me
+            </a>
+            <a
+              href="#"
+              className="hover:border-b-2 hover:pb-2 hover:transition  delay-150 duration-300 rounded-lg border-b-red-500"
+            >
+              Resume
+            </a>
           </div>
         </nav>
         <nav className="flex md:hidden justify-between items-center p-4 bg-blue-200">
@@ -54,24 +74,25 @@ export default function Home() {
         {/* About Page */}
         <div className="flex flex-col md:flex-row p-5 items-center bg-contain bg-container bg-center">
           <Image
+            alt="Bill Greatness"
             src="/temp.png"
             width={300}
             height={300}
             className="object-contain"
           />
           <div className="md:p-10">
-            <button className="flex my-2 bg-green-500 text-white items-center px-2 rounded-full">
-              <BsDot className="text-2xl" />{" "}
+            <button className="flex  my-2 bg-green-500 text-white items-center px-2 rounded-full">
+              <BsDot className="text-3xl animate-pulse" />{" "}
               <p className="text-xs">Available for hiring</p>
             </button>
             <h3 className="text-3xl py-5">Bill Greatness</h3>
             <p className="leading-relaxed text-md md:text-lg">
               Hello there! 👋 I am a dedicated software engineer with over 4+
-              years of experience, leveraging the power of 'Deep Work' to
-              transform abstract concepts into tangible, innovative products. My
-              passion lies in harnessing the potential of cutting-edge web
-              technologies, constantly seeking avenues for growth and
-              advancement.
+              years of experience, leveraging the power of &lsquo;Deep
+              Work&rsquo; to transform abstract concepts into tangible,
+              innovative products. My passion lies in harnessing the potential
+              of cutting-edge web technologies, constantly seeking avenues for
+              growth and advancement.
             </p>
             <p className="leading-relaxed text-md md:text-lg pt-3">
               Beyond coding, I find immense joy in nurturing young minds, having
@@ -92,6 +113,7 @@ export default function Home() {
                 className="w-24 cursor-pointer rounded-md shrink-0 h-24 p-2 flex items-center text-center flex-col bg-white hover:border-2 hover:border-y-blue-500"
               >
                 <Image
+                  alt={info.name}
                   src={info.img}
                   width={50}
                   height={50}
@@ -128,6 +150,7 @@ export default function Home() {
               className="flex flex-col items-center gap-2 "
             >
               <Image
+                alt="Socials"
                 src={socials[0]}
                 width={100}
                 height={100}
@@ -141,6 +164,7 @@ export default function Home() {
               className="flex flex-col items-center gap-2 "
             >
               <Image
+                alt="Socials"
                 src={socials[1]}
                 width={100}
                 height={100}
@@ -154,6 +178,7 @@ export default function Home() {
               className="flex flex-col items-center gap-2 "
             >
               <Image
+                alt="Socials"
                 src={socials[2]}
                 width={100}
                 height={100}
@@ -167,6 +192,7 @@ export default function Home() {
               className="flex flex-col items-center gap-2 "
             >
               <Image
+                alt="Socials"
                 src={socials[3]}
                 width={100}
                 height={100}
@@ -189,6 +215,7 @@ export default function Home() {
             >
               <a href="#about" className="flex flex-col items-center gap-2 ">
                 <Image
+                  alt="Socials"
                   src={tiles[0]}
                   width={100}
                   height={100}
@@ -198,6 +225,7 @@ export default function Home() {
               </a>
               <a href="#skills" className="flex flex-col items-center gap-2 ">
                 <Image
+                  alt="Socials"
                   src={tiles[1]}
                   width={100}
                   height={100}
@@ -207,6 +235,7 @@ export default function Home() {
               </a>
               <a href="#projects" className="flex flex-col items-center gap-2 ">
                 <Image
+                  alt="Socials"
                   src={tiles[2]}
                   width={100}
                   height={100}
@@ -216,6 +245,7 @@ export default function Home() {
               </a>
               <a href="#contact" className="flex flex-col items-center gap-2 ">
                 <Image
+                  alt="Socials"
                   src={tiles[3]}
                   width={100}
                   height={100}

@@ -20,6 +20,7 @@ const socials = [
   "https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Twitter_svg-64.png",
   "https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Github_social_media_logo-64.png",
   "https://cdn0.iconfinder.com/data/icons/social-circle-3/72/Email-64.png",
+  "https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/stackoverflow-64.png"
 ];
 export default function Home() {
   const [project, setProject] = useState({
@@ -142,7 +143,7 @@ export default function Home() {
 
         <div id="contact" className="flex flex-col md:p-10 mb-20">
           <h3 className="text-2xl py-5 p-3">Get in Touch</h3>
-          <div className="flex justify-start gap-5 p-5">
+          <div className="flex justify-start gap-5 p-5" data-aos="slide-up">
             <a
               href="https://www.linkedin.com/in/bill-clinton-debrah-086278196/"
               target="_blank"
@@ -194,6 +195,20 @@ export default function Home() {
               <Image
                 alt="Socials"
                 src={socials[3]}
+                width={100}
+                height={100}
+                className="object-contain w-10 h-10"
+              />
+            </a>
+            <a
+              href="https://stackoverflow.com/users/10958531/bill-greatness"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 "
+            >
+              <Image
+                alt="Socials"
+                src={socials[4]}
                 width={100}
                 height={100}
                 className="object-contain w-10 h-10"

@@ -76,15 +76,22 @@ export default function Home() {
         <div className="flex flex-col md:flex-row p-5 items-center bg-contain bg-container bg-center">
           <Image
             alt="Bill Greatness"
-            src="/temp.png"
-            width={300}
-            height={300}
-            className="object-contain"
+            src="/bill.png"
+            width={200}
+            height={200}
+            className="hidden md:block object-contain"
+          />
+          <Image
+            alt="Bill Greatness"
+            src="/bill.png"
+            width={200}
+            height={200}
+            className="block md:hidden object-contain border-b-4 border-[#21244A] p-1 rounded-full w-56 h-56"
           />
           <div className="md:p-10">
-            <button className="flex  my-2 bg-green-500 text-white items-center px-2 rounded-full">
+            <button className="flex  my-2 border-x-2 border-x-orange-500 text-gray-200 bg-[#21244A] items-center px-2 rounded-lg">
               <BsDot className="text-3xl animate-pulse" />{" "}
-              <p className="text-xs">Available for hiring</p>
+              <p className="text-sm">Available for hiring</p>
             </button>
             <h3 className="text-3xl py-5">Bill Greatness</h3>
             <p className="leading-relaxed text-md md:text-lg">
